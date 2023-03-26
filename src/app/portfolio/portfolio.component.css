@@ -1,0 +1,32 @@
+/* * {
+  outline: blueviolet solid 5px;
+} */
+#Works img {
+  border-radius: 7px;
+}
+#Works .layer {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0;
+  transition: all 0.2s;
+  background-color: #1abc9c;
+  border-radius: 7px;
+  color: white;
+
+  /* position-absolute start-0 top-0 */
+}
+#Works .image:hover .layer {
+  opacity: 0.8;
+}
+#Works .layer i {
+  font-size: 4rem;
+  font-weight: 100px;
+}
+p {
+  font-size: 3rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
